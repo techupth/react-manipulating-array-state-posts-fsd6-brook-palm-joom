@@ -3,7 +3,7 @@ import Data from "./DataPosts";
 
 function Posts() {
   let like = Data.map((item)=> item.likes)
-  console.log(like)
+  
   const [counter, setCounter] = useState(like);
   
   const handleLike = (index)=>{
